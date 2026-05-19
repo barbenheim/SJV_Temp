@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "name": "boundaries",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1",
+        "name": "Northwest"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.0,
+              37.36
+            ],
+            [
+              -121.96,
+              37.36
+            ],
+            [
+              -121.96,
+              37.39
+            ],
+            [
+              -122.0,
+              37.39
+            ],
+            [
+              -122.0,
+              37.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2",
+        "name": "Northeast"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -121.96,
+              37.36
+            ],
+            [
+              -121.92,
+              37.36
+            ],
+            [
+              -121.92,
+              37.39
+            ],
+            [
+              -121.96,
+              37.39
+            ],
+            [
+              -121.96,
+              37.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3",
+        "name": "Central"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -121.98,
+              37.33
+            ],
+            [
+              -121.94,
+              37.33
+            ],
+            [
+              -121.94,
+              37.36
+            ],
+            [
+              -121.98,
+              37.36
+            ],
+            [
+              -121.98,
+              37.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4",
+        "name": "Southwest"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.0,
+              37.3
+            ],
+            [
+              -121.96,
+              37.3
+            ],
+            [
+              -121.96,
+              37.33
+            ],
+            [
+              -122.0,
+              37.33
+            ],
+            [
+              -122.0,
+              37.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5",
+        "name": "Southeast"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -121.96,
+              37.3
+            ],
+            [
+              -121.92,
+              37.3
+            ],
+            [
+              -121.92,
+              37.33
+            ],
+            [
+              -121.96,
+              37.33
+            ],
+            [
+              -121.96,
+              37.3
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+#container {
+  display: flex;
+  height: 90vh;
+}
+
+#map {
+  flex: 1;
+}
+
+#chart {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Highlight styles */
+.highlight {
+  stroke: black;
+  stroke-width: 2;
+}
+
+.dim {
+  opacity: 0.3;
+}
+
+/* Displays text when hovering over map features or chart bars */
+.tooltip {
+    position: absolute;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #333;
+    border-radius: 4px;
+    pointer-events: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    opacity: 0;
+    z-index: 1000;
+}
+
+/* Legend styles */
+.info.legend {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    line-height: 24px;
+}
+
+/* Colored boxes in the legend */
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+/* Force all map polygons to have NO border by default */
+path.leaflet-interactive {
+    stroke: none !important;
+    stroke-width: 0 !important;
+}
+
+/* ONLY show the border */
+path.leaflet-interactive.highlight-active {
+    stroke: black !important;
+    stroke-width: 2 !important;
+}
+
+/* Make the layer control look like a clean mobile toggle */
+.leaflet-control-layers-expanded {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border: none !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2) !important;
+    padding: 10px !important;
+    border-radius: 8px !important;
+    font-weight: bold;
+}
+
+/* Make the radio buttons and text larger for easier tapping */
+.leaflet-control-layers-list {
+    font-size: 16px;
+    line-height: 1.8;
+}
+

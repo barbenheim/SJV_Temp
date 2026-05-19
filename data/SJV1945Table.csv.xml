@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<eainfo>
+		<detailed Name="SJV1945Table.csv">
+			<attr>
+				<attrlabl>AREA</attrlabl>
+				<attalias>AREA</attalias>
+				<attrdef>area in meters square</attrdef>
+				<attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LU1885</attrlabl>
+				<attalias>LU1885</attalias>
+				<attrdef>Estimated natural communities and land use around 1885</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>LU1945</attrlabl>
+				<attalias>LU1945</attalias>
+				<attrdef>Estimated natural communities and land use around 1945</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>POT_LU</attrlabl>
+				<attalias>POT_LU</attalias>
+				<attrdef>POT_LU</attrdef>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<enttyp><enttypl Sync="TRUE">SJV1945Table.csv</enttypl><enttypt Sync="TRUE">Table</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">Shape__Area</attrlabl><attalias Sync="TRUE">Shape__Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape__Length</attrlabl><attalias Sync="TRUE">Shape__Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Consolidated Data Basin Info: Establish base of historical land cover based on re-defined attributes of the Kuchler data (kuchler)  
+Edit the initial data using the Hall 1885 medium scale irrigation maps for the location of historical wetlands, Tulare Lake, Summit Lake, Buena Vista Lake, and Kern Lake. (Hallmedscale)  
+Edit the initial data using the Piemeisel map along with reconnaissance soil surveys for the location of historical scrub lands unmapped in the initial data. (Piemeisel, recon_midsjv, recon_uppsjv, recon_lowsjv)  
+Develop a layer showing the extent of irrigated lands around 1912 using USDA data and add in the estimated extent of urban areas using reconnaissance soil survey base maps. (irr1912, recon_midsjv, recon_uppsjv, recon_lowsjv)  
+Develop a layer showing the extent of irrigated lands and some urban lands around 1945 using map in USBR report. (USBR1949)  
+Develop a layer showing the extent of urban and irrigated farmland around 1977 using USGS LULC data (USGSLULC)  
+Derived a layer of irrigated agricultre and urban areas using ESRP land use and land cover data (ESRPLULC)  
+Used Arc/Info overlay analysis (UNION) to combine layers and assign land use/land cover attributes for potential land cover and land cover during subsequent time frames.  
+Clipped data to boundary of the Great Central Valley region of California (UCSB, 1996) south of latitude 38 N (gapjepson)</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<idinfo>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Scott Phillips (gis@esrp.csustan.edu)</cntper>
+					<cntorg>CSUS/ESRP</cntorg>
+				</cntperp>
+			</cntinfo>
+		</ptcontac>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>u1850-01-01 - 2004-12-12</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<useconst>Permission is granted to use the data for any personal or academic purposes as long as notification of use is sent to sphillips@esrp.csustan.edu and derived products are clearly credited with Scott Phillips, CSU Stanislaus, ESRP.  For commercial use, contact CSU Stanislaus, ESRP:  info@esrp.csustan.edu.</useconst>
+		<datacred>CSU Stanislaus, Endangered Species RecoveryProgram</datacred>
+		<keywords>
+			<theme>
+				<themekey>wetlands,lands,scrub,grasslands,crop fields,terrestrial ecosystems,land use,forests,chaparral,agricultural land,vegetation</themekey>
+			</theme>
+		</keywords>
+		<citation>
+			<citeinfo>
+				<onlink>http://databasin.org/datasets/c6d292953be14170874ac30237efb27f</onlink>
+				<othercit>http://esrp.csustan.edu/gisWe are currently incoprorating some of the
+more recent data, and some data for additional areas.
+The following surveys are represented in this edition:
+1995 Contra Costa County (95CC) 1995 Madera County
+(95MA) 1995 Merced County (95ME) 1995 Shasta County
+(95SH) 1995 Yuba County (95YU) 1996 Kings County (96KG)
+1996 San Joaquin County (96SJ) 1996 South Central Coast
+(96SX) 1996 Stanislaus County (96SS) 1997 Monterey
+County (97MT) Summer 1997 San Benito County (97ST) 1997
+Santa Cruz County (97SZ) 1998 Kern County (98KN) 1999
+Butte County (99BU) 1999 Napa County (99NA) 1999 Tulare
+County (99TU) 2000 Fresno County (00FR) 2002 San Benito
+County (02ST) 2003 Kings County (03KG)</othercit>
+				<title>Landscape change in the San Joaquin Valley of California, 1945</title>
+				<origin>Scott E. Phillips</origin>
+				<origin>Patrick A. Kelly</origin>
+				<origin>and Daniel F. Williams</origin>
+				<origin>California State University</origin>
+				<origin>Stanislaus</origin>
+				<origin>Endangered Species Recovery Program</origin>
+			</citeinfo>
+		</citation>
+		<spdom>
+			<bounding>
+				<southbc>4148967.3576</southbc>
+				<northbc>4579561.6304</northbc>
+				<eastbc>-13206130.6336</eastbc>
+				<westbc>-13582348.2315</westbc>
+			</bounding>
+		</spdom>
+		<descript>
+			<abstract>Landscape change in the San Joaquin Valley of California -- pre-European settlement to 2000</abstract>
+			<purpose>To prepare illustrations and data for publications related to changes in the San Joaquin Valley over time</purpose>
+			<supplinf>Future edits will focus on enhancing the spatial boundaries of historical natural communities and the addition of additional time frames where possible.</supplinf>
+		</descript>
+	</idinfo>
+	<distinfo>
+		<techpreq>ESRI ArcGIS Desktop and supporting operating systems.</techpreq>
+		<stdorder>
+			<digform>
+				<digtopt>
+					<onlinopt>
+						<accinstr>Download from http://databasin.org</accinstr>
+					</onlinopt>
+					<onlineopt>
+						<computer>
+							<networka>
+								<networkr>http://databasin.org/datasets/c6d292953be14170874ac30237efb27f</networkr>
+							</networka>
+						</computer>
+					</onlineopt>
+				</digtopt>
+				<digtinfo>
+					<filedec>No compression applied</filedec>
+					<formvern>ArcGIS 10</formvern>
+					<formspec>Feature Layer</formspec>
+					<formname>Feature Layer</formname>
+				</digtinfo>
+			</digform>
+			<ordering>Download from http://databasin.org</ordering>
+			<fees>None</fees>
+		</stdorder>
+		<distliab>No warranty is made by Data Basin for use of this dataset.  No warranty is made by Data Basin regarding the accuracy, reliability, or completeness of this dataset. In no event shall Data Basin have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of the use or reliance on the geographic or attribute data contained within this dataset or arising out of the delivery, installation, operation, or support by Data Basin.</distliab>
+		<distrib>
+			<cntinfo>
+				<cntvoice>541-757-0687</cntvoice>
+				<cntemail>databasin_admin@consbio.org</cntemail>
+				<cntperp>
+					<cntorg>Data Basin</cntorg>
+					<cntper>Data Basin Administrator</cntper>
+				</cntperp>
+				<cntaddr>
+					<postal>97333</postal>
+					<city>Corvallis</city>
+					<address>136 SW Washington Ave, Suite 202</address>
+					<addrtype>physical address</addrtype>
+					<country>USA</country>
+					<state>OR</state>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+	</distinfo>
+	<Esri>
+		<CreaDate>20150501</CreaDate>
+		<CreaTime>15162300</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<itemName Sync="TRUE">SJV1945Table.csv</itemName><imsContentType Sync="TRUE">005</imsContentType><itemLocation><linkage Sync="TRUE">file://\\AAD230924\C$\Users\Adan\GIS\GISC230\Block4\Chapter10\data\SJV1945Table.csv</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemSize Sync="TRUE">0.000</itemSize></itemProps>
+			<lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\ExportTable" Date="20260511" Time="122237">ExportTable SanJoaquinValley_Vegetation1945 C:\Users\Adan\GIS\GISC230\Block4\Chapter10\data\SJV1945Table.csv # NOT_USE_ALIAS "AREA "AREA" true true false 0 Double 0 0,First,#,SanJoaquinValley_Vegetation1945,AREA,-1,-1;LU1885 "LU1885" true true false 16 Text 0 0,First,#,SanJoaquinValley_Vegetation1945,LU1885,0,15;LU1945 "LU1945" true true false 16 Text 0 0,First,#,SanJoaquinValley_Vegetation1945,LU1945,0,15;POT_LU "POT_LU" true true false 16 Text 0 0,First,#,SanJoaquinValley_Vegetation1945,POT_LU,0,15;Shape__Area "Shape__Area" false true true 0 Double 0 0,First,#,SanJoaquinValley_Vegetation1945,Shape__Area,-1,-1;Shape__Length "Shape__Length" false true true 0 Double 0 0,First,#,SanJoaquinValley_Vegetation1945,Shape__Length,-1,-1" #</Process></lineage></DataProperties>
+		<SyncDate>20260511</SyncDate><SyncTime>12223100</SyncTime><ModDate>20260511</ModDate><ModTime>12223100</ModTime></Esri>
+	<dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 26200) ; Esri ArcGIS 13.6.0.59527</envirDesc><dataLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">SJV1945Table.csv</resTitle><presForm><PresFormCd value="001" Sync="TRUE"></PresFormCd></presForm></idCitation></dataIdInfo><mdLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdChar><CharSetCd value="004" Sync="TRUE"></CharSetCd></mdChar><distInfo><distFormat><formatName Sync="TRUE">Text File</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><mdHrLv><ScopeCd value="007" Sync="TRUE"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">non-geographic dataset</mdHrLvName><mdDateSt Sync="TRUE">20260511</mdDateSt></metadata>
